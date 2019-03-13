@@ -1,0 +1,83 @@
+.container-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+
+  .header-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 88px;
+    -webkit-transform: translate(0, -100%);
+    transform: translate(0, -100%);
+    background-color: #023351;
+    transition: -webkit-transform 0.25s ease;
+    transition: transform 0.25s ease;
+    transition: transform 0.25s ease, -webkit-transform 0.25s ease;
+    transform: translate(0, 0);
+  }
+
+
+.layout {
+  margin: 0 auto;
+  width: 1440px;
+  text-align: left;
+
+  .page-header{
+    position: relative;
+    height: 78px;
+
+    .header-logo{
+      position: absolute;
+      top: 5px;left: 130px;
+      width: 175px;
+      height: 70px;
+      background: url(https://www.connectpointz.com/assets/images/header/logo.svg) no-repeat  center;
+      background-size: 100%;
+      
+      a:link {
+        text-decoration: none;
+      }
+    }
+
+
+
+      .header-login{
+        position: absolute;
+        top: 0;
+        right: 50px;
+
+        a{
+            display: block;
+            color: #fff;
+            background-color: #15AAE6;
+            position: relative;
+            height: 68px;
+            top: 10px;
+            line-height: 68px;
+            width: 200px;
+            padding: 0 0 0 55px;
+            font-weight: 700;
+            font-size: 15px;
+            text-transform: uppercase;
+            box-sizing: border-box;
+            transition: color 0.25s ease;
+            text-decoration: none;
+            text-align: left;
+
+          :hover{
+            color:#023351 ;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+
+
+
